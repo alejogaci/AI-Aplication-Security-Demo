@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.git/
+.gitignore
+*.md
+docs/
+test_e2e.py
+tmas
+*.json

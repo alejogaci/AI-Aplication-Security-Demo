@@ -1,0 +1,31 @@
+# --- Secretos: NUNCA subir esto al repo ---
+.env
+
+# --- Entorno virtual de Python ---
+venv/
+.venv/
+env/
+
+# --- Cache de Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- Reportes generados por AI Scanner ---
+baseline.json
+baseline.md
+protected.json
+protected.md
+*.report.json
+*.report.md
+
+# --- Binario del scanner (se descarga aparte) ---
+tmas
+
+# --- Cosas del sistema operativo / editores ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
